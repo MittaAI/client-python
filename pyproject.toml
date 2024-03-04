@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mitta_mistralai"
-version = "0.1.3-beta.1"
+version = "0.1.3-beta.2"
 description = "Fork of MistralAI client library with httpx allowed to be 0.27.0+. Will track with official Mistral release until this is addressed in the main package."
 authors = ["Kord Campbell <kordless@gmail.com>"]
 readme = "README.md"
