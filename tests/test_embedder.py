@@ -1,8 +1,8 @@
 import unittest.mock as mock
 
 import pytest
-from mistralai.client import MistralClient
-from mistralai.models.embeddings import EmbeddingResponse
+from mitta_mistralai.client import MistralClient
+from mitta_mistralai.models.embeddings import EmbeddingResponse
 
 from .utils import mock_embedding_response_payload, mock_response
 

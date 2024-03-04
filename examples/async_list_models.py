@@ -3,7 +3,7 @@
 import asyncio
 import os
 
-from mistralai.async_client import MistralAsyncClient
+from mitta_mistralai.async_client import MistralAsyncClient
 
 
 async def main():

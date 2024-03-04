@@ -1,9 +1,13 @@
 [tool.poetry]
-name = "mistralai"
-version = "0.0.1"
-description = ""
-authors = ["Bam4d <bam4d@mistral.ai>"]
+name = "mitta_mistralai"
+version = "0.1.3-beta.1"
+description = "Fork of MistralAI client library with httpx allowed to be 0.27.0+. Will track with official Mistral release until this is addressed in the main package."
+authors = ["Kord Campbell <kordless@gmail.com>"]
 readme = "README.md"
+
+[[tool.poetry.packages]]
+include = "mitta_mistralai"
+from = "src"
 
 [tool.ruff]
 select = ["E", "F", "W", "Q", "I"]

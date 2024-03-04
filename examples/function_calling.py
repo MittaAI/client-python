@@ -3,8 +3,8 @@ import json
 import os
 
 import pandas as pd
-from mistralai.client import MistralClient
-from mistralai.models.chat_completion import ChatMessage, Function
+from mitta_mistralai.client import MistralClient
+from mitta_mistralai.models.chat_completion import ChatMessage, Function
 
 # Assuming we have the following data
 data = {

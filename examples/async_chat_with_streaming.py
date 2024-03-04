@@ -3,8 +3,8 @@
 import asyncio
 import os
 
-from mistralai.async_client import MistralAsyncClient
-from mistralai.models.chat_completion import ChatMessage
+from mitta_mistralai.async_client import MistralAsyncClient
+from mitta_mistralai.models.chat_completion import ChatMessage
 
 
 async def main():

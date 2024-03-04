@@ -1,8 +1,8 @@
 import unittest.mock as mock
 
 import pytest
-from mistralai.client import MistralClient
-from mistralai.models.chat_completion import (
+from mitta_mistralai.client import MistralClient
+from mitta_mistralai.models.chat_completion import (
     ChatCompletionResponse,
     ChatCompletionStreamResponse,
     ChatMessage,

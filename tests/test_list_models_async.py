@@ -1,8 +1,8 @@
 import unittest.mock as mock
 
 import pytest
-from mistralai.async_client import MistralAsyncClient
-from mistralai.models.models import ModelList
+from mitta_mistralai.async_client import MistralAsyncClient
+from mitta_mistralai.models.models import ModelList
 
 from .utils import mock_list_models_response_payload, mock_response
 
